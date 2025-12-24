@@ -32,7 +32,7 @@ export const Footer = () => {
         <div>
           <div className="flex items-center mb-4">
             <div className="h-10 w-10 bg-red-700 rounded-full flex items-center justify-center mr-3">
-              <span className="text-white text-lg">J</span>
+              <span className="text-white text-lg">SJ</span>
             </div>
             <h2 className="text-xl">Sumit Joshi</h2>
           </div>
