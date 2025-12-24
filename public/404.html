@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script is placed in the 404.html file.
+
+      // Set segmentCount to 1 for Project Pages, 0 for User/Organization Pages.
+      // Project Pages are served from a subdirectory like username.github.io/repo-name/
+      // User/Organization Pages are served from the root username.github.io/
+      const segmentCount = 0; 
+
+      const l = window.location;
+      const SCRIPT_NAME = '/404.html'; // Name of this script, to avoid processing it
+
+      // Get the pathname without the SCRIPT_NAME at the end if it's present
+      let pathname = l.pathname;
+      if (pathname.endsWith(SCRIPT_NAME)) {
+        pathname = pathname.substring(0, pathname.length - SCRIPT_NAME.length);
+      }
+      
+      // If the path is the root of the deployment (after removing SCRIPT_NAME if applicable),
+      // or if it's just the base path of the repo, then do nothing and let index.html load.
+      // This helps prevent redirect loops if 404.html is somehow accessed directly at the repo root.
+      const pathSegments = pathname.split('/').filter(Boolean); // Remove empty segments
+      const repoBaseSegments = l.pathname.split('/').slice(0, 1 + segmentCount).filter(Boolean);
+      
+      let isLikelyRepoRootAccess = true;
+      if (pathSegments.length !== repoBaseSegments.length) {
+        isLikelyRepoRootAccess = false;
+      } else {
+        for(let i=0; i < pathSegments.length; i++) {
+          if(pathSegments[i] !== repoBaseSegments[i]) {
+            isLikelyRepoRootAccess = false;
+            break;
+          }
+        }
+      }
+
+      if (!isLikelyRepoRootAccess) {
+          const appPath = pathSegments.slice(segmentCount).join('/');
+          const queryString = l.search.slice(1); // Remove leading '?'
+          const hash = l.hash;
+
+          let newUri = l.protocol + '//' + l.host;
+          newUri += '/' + repoBaseSegments.join('/'); // Add the repo base path
+          newUri += '/?p=/' + appPath; // Path parameter for the SPA router
+
+          if (queryString) {
+            newUri += '&q=' + queryString; // Query parameter
+          }
+          newUri += hash; // Hash fragment
+
+          l.replace(newUri);
+      }
+    </script>
+  </head>
+  <body>
+    <p>If you are not redirected automatically, please <a href="/">click here to go to the homepage</a>.</p>
+  </body>
+</html> 
