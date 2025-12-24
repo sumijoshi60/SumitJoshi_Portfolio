@@ -32,7 +32,7 @@ export const Footer = () => {
         <div>
           <div className="flex items-center mb-4">
             <div className="h-10 w-10 bg-red-700 rounded-full flex items-center justify-center mr-3">
-              <span className="text-white text-lg">HJ</span>
+              <span className="text-white text-lg">J</span>
             </div>
             <h2 className="text-xl">Sumit Joshi</h2>
           </div>
@@ -43,9 +43,9 @@ export const Footer = () => {
             <a href="https://github.com/sumijoshi60" className="text-stone-400 hover:text-white transition-colors" aria-label="GitHub">
               <GithubIcon size={20} />
             </a>
-            <a href="https://twitter.com/hritikajoshi" className="text-stone-400 hover:text-white transition-colors" aria-label="Twitter">
+            {/* <a href="https://twitter.com/hritikajoshi" className="text-stone-400 hover:text-white transition-colors" aria-label="Twitter">
               <TwitterIcon size={20} />
-            </a>
+            </a> */}
             <a href="https://www.linkedin.com/in/sumijoshi60" className="text-stone-400 hover:text-white transition-colors" aria-label="LinkedIn">
               <LinkedinIcon size={20} />
             </a>
