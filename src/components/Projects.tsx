@@ -96,6 +96,20 @@ export const Projects = () => {
       link: 'https://github.com/sumijoshi60/Bikri-Bagaicha',
       year: 2025
     },
+    {
+      title: 'Cloud Audit Framework',
+      description: 'A simple web-based application to audit cloud security.',
+      fullDescription: [
+        'The framework is built to audit the security posture of cloud resources.',
+        'The major security domains are audited.',
+        'Used React-Native and CSS to develop the frontend, Node.js and Express.js to develop the backend and MongoDB to store the data.',
+        'Our team of four were selected as the second runner-up in the hackathon.',
+      ],
+      image: 'https://images.unsplash.com/photo-1582213782179-e0d4d3cce817?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      tags: ['Hackathon', 'Second runner-up', 'React-Native App'],
+      link: 'https://github.com/sumijoshi60/Bikri-Bagaicha',
+      year: 2025
+    },
     /* {
        title: 'GEC II STEM Program Evaluation',
        description: 'Research Consultant for Foundation for Development Management - Effectiveness Evaluation in Nepal (2024)',
