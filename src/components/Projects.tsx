@@ -100,15 +100,14 @@ export const Projects = () => {
       title: 'Cloud Audit Framework',
       description: 'A simple web-based application to audit cloud security.',
       fullDescription: [
-        'The framework is built to audit the security posture of cloud resources.',
-        'The major security domains are audited.',
-        'Used React-Native and CSS to develop the frontend, Node.js and Express.js to develop the backend and MongoDB to store the data.',
-        'Our team of four were selected as the second runner-up in the hackathon.',
+        'Developed a cloud security assessment platform that evaluates cloud infrastructure against industry standards.',
+        'The major security domains are audited including IAM, Network Security, Data Protection, Logging & Monitoring, Configuration Management, and Incident Response.',
+        'Built using React, React Router, and Vite.',
       ],
       image: 'https://images.unsplash.com/photo-1582213782179-e0d4d3cce817?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      tags: ['Hackathon', 'Second runner-up', 'React-Native App'],
-      link: 'https://github.com/sumijoshi60/Bikri-Bagaicha',
-      year: 2025
+      tags: ['Cloud Security', 'Audit Framework', 'Security Domains'],
+      link: 'https://cloud-audit-framework.netlify.app/',
+      year: 2026
     },
     /* {
        title: 'GEC II STEM Program Evaluation',
