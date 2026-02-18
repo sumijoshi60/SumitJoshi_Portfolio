@@ -1,11 +1,11 @@
 import React from 'react';
-import { BrainIcon, MicroscopeIcon, WrenchIcon, UserIcon, GlobeIcon } from 'lucide-react';
+import { BrainIcon, WrenchIcon, UserIcon, GlobeIcon } from 'lucide-react';
 
 export const Skills = () => {
   const skills = [{
     category: '🧠 Core Skills',
     icon: <BrainIcon size={24} className="text-red-700" />,
-    items: ['Cloud computing (AWS fundamentals)', 'Cybersecurity & security principles', 'IAM & access control basics', 'Networking & Linux fundamentals', 'Cloud monitoring & security auditing basics']
+    items: ['On-Page SEO', 'Keyword Research', 'Technical SEO', 'Content Strategy', 'Off-page SEO']
   },
   /* 
   {
@@ -15,11 +15,11 @@ export const Skills = () => {
   },
   */
   {
-    category: '🛠️ Tools & Platforms',
+    category: 'Tools & Platforms',
     icon: <WrenchIcon size={24} className="text-red-700" />,
-    items: ['Microsoft Office Suite', 'Google Workspace', 'Canva', 'Microsoft Teams', 'Visual Studio Code']
+    items: ['WordPress', 'Google Analytics', 'Google Search Console', 'Git & GitHub']
   }, {
-    category: '🤝 Soft Skills',
+    category: 'Soft Skills',
     icon: <UserIcon size={24} className="text-red-700" />,
     items: ['Communication', 'Collaboration', 'Adaptability', 'Problem-Solving', 'Time Management', 'Attention to Detail', 'Cultural Sensitivity', 'Multi-stakeholder Coordination', 'Event Facilitation']
   }, {
