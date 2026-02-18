@@ -10,14 +10,14 @@ export const About = () => {
         </h2>
         <div className="prose prose-stone lg:prose-lg max-w-none">
           <p className="font-medium text-stone-800">
-            Dedicated Information Technology student with expertise in cloud computing, cloud security and cybersecurity.
+            Dedicated Information Technology student with a strong interest in Search Engine Optimization (SEO) and digital marketing
           </p>
           <p>
-            I am a final year BIM student eager to gain real-world experience in the field of Cloud Computing and
-            Cybersecurity. Currently completing the AWS Cloud Practitioner Essentials and the Google Cybersecurity
-            Professional Certificate gaining hands-on exposure to cloud services, security fundamentals, monitoring, and
-            incident response. I am interested in developing my skills as a Cloud Engineer, supporting cloud infrastructure,
-            security best practices, and CI/CD environments in AWS-based systems.
+            I am a final year BIM student eager to gain real-world experience in the field of Search Engine Optimization (SEO)
+            and digital marketing. Currently building my knowledge in keyword research, on-page optimization, technical SEO
+            fundamentals, and content strategy, gaining practical exposure to improving website visibility and search performance.
+            I am interested in developing my skills as an SEO professional, supporting content optimization, website audits,
+            analytics tracking, and data-driven growth strategies.
           </p>
 
           {/* Resume download button */}
@@ -38,7 +38,7 @@ export const About = () => {
               My Approach:
             </div>
             <div className="mt-2 sm:mt-0 px-4 py-2 bg-indigo-900/10 border-l-4 border-indigo-900 text-stone-700 italic">
-              "Cloud security is not just about tools and configurations, but about understanding systems, anticipating risk, and using evidence-driven practices to build secure and resilient cloud environments."
+              "SEO is not just about keywords and rankings, but about understanding user intent, analyzing data, and using evidence-driven strategies to build sustainable and long-term organic growth."
             </div>
           </div>
         </div>
